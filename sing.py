@@ -7,9 +7,6 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-import hashlib
-from db import PymysqlDb
-
 
 class Ui_Form(object):
     def setupUi(self, Form):
@@ -112,11 +109,7 @@ class Ui_Form(object):
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
 
-        self.signUpbutton.clicked.connect(self.singup)
-        self.studentIdLineEdit.returnPressed.connect(self.singup)
-        self.studentNameLineEdit.returnPressed.connect(self.singup)
-        self.passwordLineEdit.returnPressed.connect(self.singup)
-        self.passwordConfirmLineEdit.returnPressed.connect(self.singup)
+
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
@@ -128,36 +121,6 @@ class Ui_Form(object):
         self.studentIdLabel.setText(_translate("Form", "学            号"))
         self.signUpbutton.setText(_translate("Form", "注册"))
 
-    #
-    def singup(self):
-        studentId = self.studentIdLineEdit.text().strip()
-        studentName = self.studentNameLineEdit.text().strip()
-        password = self.passwordLineEdit.text().strip()
-        passwordConfirst = self.passwordConfirmLineEdit.text().strip()
-        if studentId == '' or studentName == '' or password == '' or passwordConfirst == '':
-            print(QtWidgets.QMessageBox.warning(self,'警告','表单不可为空，请重新输入',QtWidgets.QMessageBox.Yes,
-                                                QtWidgets.QMessageBox.No))
-            return
-        else:
-            if (password != passwordConfirst):
-                print(QtWidgets.QMessageBox.warning(self,'警告','两次输入的密码不一样，请核对！',QtWidgets.QMessageBox.Yes,
-                                                    QtWidgets.QMessageBox.Yes))
-            elif (password == passwordConfirst):
-                #md5编码
-                h1 = hashlib.md5()
-                h1.update(password.encode(encoding='utf-8'))
-                md5password = h1.hexdigest()
-                sql = "select * from user where StudentId = {}".format(studentId)
-                row = PymysqlDb().query(sql)
-                if row:
-                    print(QtWidgets.QMessageBox.warning(self,'警告','已存在这个账户，请重新输入',QtWidgets.QMessageBox.Yes,
-                                            QtWidgets.QMessageBox.Yes))
-                    return
-                else:
-                    sql = "insert into user(StudentId,Name,PassWord) values ('{0}','{1}','{2}')".format(studentId,studentName,md5password)
-                    PymysqlDb().insert_db(sql)
-                    print(QtWidgets.QMessageBox.information(self,'警告','注册成功',QtWidgets.QMessageBox.Yes,QtWidgets.QMessageBox.Yes))
-                return
 
 
 
