@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5f999532-691a-4b02-97d5-d0f38603ddce" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../QT\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UxlE2PZYQv3Wrh3Mp8lCGF9vKH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="C:/Anaconda3/Scripts/pyuic5.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Book" />
+      <recent name="G:\Book\新建文件夹" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Book\新建文件夹" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.dropBook_db">
+    <configuration name="Call_addBook" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="QT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Call_addBook.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UserManage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="QT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UserManage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="call" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="QT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/call.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dropBook_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="QT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dropBook_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="QT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/新建文件夹" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/新建文件夹/tool.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dropBook_db" />
+        <item itemvalue="Python.tool" />
+        <item itemvalue="Python.UserManage" />
+        <item itemvalue="Python.Call_addBook" />
+        <item itemvalue="Python.call" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f999532-691a-4b02-97d5-d0f38603ddce" name="Default Changelist" comment="" />
+      <created>1576306012218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576306012218</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="548" y="117" key="#Call_addBook" timestamp="1577707731433">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="548" y="117" key="#Call_addBook/0.0.1680.1010@0.0.1680.1010" timestamp="1577707731433" />
+    <state x="548" y="117" key="#UserManage" timestamp="1577707966756">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="548" y="117" key="#UserManage/0.0.1680.1010@0.0.1680.1010" timestamp="1577707966756" />
+    <state x="548" y="117" key="#call" timestamp="1577707889792">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="548" y="117" key="#call/0.0.1680.1010@0.0.1680.1010" timestamp="1577707889792" />
+    <state x="538" y="175" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1578064095487">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="538" y="175" key="#com.intellij.ide.macro.MacrosDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1578064095487" />
+    <state x="570" y="251" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578064342845">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="570" y="251" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1578064342845" />
+    <state x="521" y="299" width="474" height="488" key="#com.intellij.tools.ToolEditorDialog" timestamp="1578064267892">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="521" y="299" width="474" height="488" key="#com.intellij.tools.ToolEditorDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1578064267892" />
+    <state x="548" y="117" key="#db" timestamp="1577708104045">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="548" y="117" key="#db/0.0.1680.1010@0.0.1680.1010" timestamp="1577708104045" />
+    <state x="615" y="245" key="FileChooserDialogImpl" timestamp="1578064119059">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="615" y="245" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1578064119059" />
+    <state width="1659" height="272" key="GridCell.Tab.0.bottom" timestamp="1578105408823">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1659" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1578105408823" />
+    <state width="1659" height="272" key="GridCell.Tab.0.center" timestamp="1578105408823">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1659" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1578105408823" />
+    <state width="1659" height="272" key="GridCell.Tab.0.left" timestamp="1578105408823">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1659" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1578105408823" />
+    <state width="1659" height="272" key="GridCell.Tab.0.right" timestamp="1578105408823">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1659" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1578105408823" />
+    <state x="259" y="112" key="SettingsEditor" timestamp="1578064271073">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="222" y="102" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1576306271387" />
+    <state x="259" y="112" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1578064271073" />
+    <state x="471" y="312" key="com.intellij.ide.util.TipDialog" timestamp="1578099076778">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="404" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1576388844070" />
+    <state x="471" y="312" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1578099076778" />
+  </component>
+</project>
