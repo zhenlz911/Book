@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from dropBookDialog import Ui_Dialog
-from db import Pymysql
+from db import PymysqlDb
 
 class DropBook(QDialog,Ui_Dialog):
     def __init__(self):
@@ -25,7 +25,7 @@ class DropBook(QDialog,Ui_Dialog):
     def bookIdEditChanged(self):
         bookid = self.bookIdEdit.text()
         sql = "select * from book where BookId = '{}'".format(bookid)
-        row = Pymysql.query(sql)
+        row = PymysqlDb.query(sql)
         if row:
             self.bookNameEdit.setText(row[0])
         return
