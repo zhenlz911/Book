@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f999532-691a-4b02-97d5-d0f38603ddce" name="Default Changelist" comment="" />
+    <list default="true" id="5f999532-691a-4b02-97d5-d0f38603ddce" name="Default Changelist" comment="数据更新">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Call_addBook.py" beforeDir="false" afterPath="$PROJECT_DIR$/Call_addBook.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropBook_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/dropBook_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled.ui" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +15,11 @@
   <component name="ExportToHTMLSettings">
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../QT\exportToHTML" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Book">
+      <favorite_root url="file://$PROJECT_DIR$/dropBook_db.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -17,7 +27,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/zhenlz911/Book.git" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1UxlE2PZYQv3Wrh3Mp8lCGF9vKH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,16 +51,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Book\新建文件夹" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\Book" />
       <recent name="G:\Book\新建文件夹" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Book\新建文件夹" />
-    </key>
   </component>
   <component name="RunManager" selected="Python.dropBook_db">
-    <configuration name="Call_addBook" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="UserManage (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="QT" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -50,7 +72,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Call_addBook.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UserManage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="singl_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="QT" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,11 +152,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/新建文件夹" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/新建文件夹/tool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/singl_db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,10 +168,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.dropBook_db" />
-        <item itemvalue="Python.tool" />
-        <item itemvalue="Python.UserManage" />
-        <item itemvalue="Python.Call_addBook" />
+        <item itemvalue="Python.UserManage (1)" />
         <item itemvalue="Python.call" />
+        <item itemvalue="Python.UserManage" />
+        <item itemvalue="Python.singl_db" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +198,42 @@
       <option name="presentableId" value="Default" />
       <updated>1576306012218</updated>
     </task>
+    <task id="LOCAL-00001" summary="数据更新">
+      <created>1578117511938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578117511938</updated>
+    </task>
+    <task id="LOCAL-00002" summary="数据更新">
+      <created>1578117819771</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578117819771</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="数据更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="548" y="117" key="#Call_addBook" timestamp="1577707731433">
@@ -207,35 +264,59 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="548" y="117" key="#db/0.0.1680.1010@0.0.1680.1010" timestamp="1577708104045" />
+    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1578193131765">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1578193131765" />
+    <state x="93" y="93" width="1255" height="735" key="DiffContextDialog" timestamp="1578192977025">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="93" y="93" width="1255" height="735" key="DiffContextDialog/0.0.1440.920@0.0.1440.920" timestamp="1578192977025" />
     <state x="615" y="245" key="FileChooserDialogImpl" timestamp="1578064119059">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="615" y="245" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1578064119059" />
-    <state width="1659" height="272" key="GridCell.Tab.0.bottom" timestamp="1578105408823">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state x="598" y="352" width="269" height="217" key="Github.ShareDialog" timestamp="1578117476621">
+      <screen x="0" y="0" width="1440" height="920" />
     </state>
+    <state x="598" y="352" width="269" height="217" key="Github.ShareDialog/0.0.1440.920@0.0.1440.920" timestamp="1578117476621" />
+    <state width="1419" height="242" key="GridCell.Tab.0.bottom" timestamp="1578118185231">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1578118185231" />
     <state width="1659" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1578105408823" />
-    <state width="1659" height="272" key="GridCell.Tab.0.center" timestamp="1578105408823">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1419" height="242" key="GridCell.Tab.0.center" timestamp="1578118185230">
+      <screen x="0" y="0" width="1440" height="920" />
     </state>
+    <state width="1419" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1578118185230" />
     <state width="1659" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1578105408823" />
-    <state width="1659" height="272" key="GridCell.Tab.0.left" timestamp="1578105408823">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1419" height="242" key="GridCell.Tab.0.left" timestamp="1578118185230">
+      <screen x="0" y="0" width="1440" height="920" />
     </state>
+    <state width="1419" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1578118185230" />
     <state width="1659" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1578105408823" />
-    <state width="1659" height="272" key="GridCell.Tab.0.right" timestamp="1578105408823">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1419" height="242" key="GridCell.Tab.0.right" timestamp="1578118185230">
+      <screen x="0" y="0" width="1440" height="920" />
     </state>
+    <state width="1419" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1578118185230" />
     <state width="1659" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1578105408823" />
     <state x="259" y="112" key="SettingsEditor" timestamp="1578064271073">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="222" y="102" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1576306271387" />
     <state x="259" y="112" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1578064271073" />
-    <state x="471" y="312" key="com.intellij.ide.util.TipDialog" timestamp="1578099076778">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1578117858744">
+      <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="404" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1576388844070" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1578117858744" />
+    <state x="404" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1578192859036">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="404" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1578192859036" />
     <state x="471" y="312" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1578099076778" />
+    <state x="517" y="378" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578193000236">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="517" y="378" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.920@0.0.1440.920" timestamp="1578193000236" />
   </component>
 </project>

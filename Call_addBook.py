@@ -1,7 +1,5 @@
 import sys
-
 from distributed import publish
-
 from addBookDialog import Ui_Dialog
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
@@ -53,7 +51,7 @@ class addBook(QDialog,Ui_Dialog):
                 sql3 = "insert into buyordrop(BookId,Time,Number) values('{}','{}',{})".format(bookid,timenow,addnum)
                 PymysqlDb().insert_db(sql3)
                 print(QMessageBox.information(self,'提示','添加成功',QMessageBox.Yes,QMessageBox.Yes))
-        return
+            return
         self.clearEdit()
 
     #清除字段内容
