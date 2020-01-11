@@ -37,10 +37,14 @@ class DropBook(QDialog,Ui_Dialog):
                 self.authNameEdit.setText(row[0][2])
                 self.categoryComboBox.setCurrentText(row[0][3])
                 self.publisherEdit.setText(row[0][4])
+                if row[0][5]:
                 #将时间类型转换成字符串型
-                self.publishTime.setText(datetime.datetime.strftime(row[0][8],'%Y-%m-%d'))
+                    self.publishTime.setText(datetime.datetime.strftime(row[0][5],'%Y-%m-%d'))
+                else:
+                    self.publishTime.setText('')
             else:
                 print(QMessageBox.warning(self,'提示','没有查到此书信息,请核对',QMessageBox.Yes,QMessageBox.Yes))
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
