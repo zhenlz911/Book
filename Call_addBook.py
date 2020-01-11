@@ -44,7 +44,7 @@ class addBook(QDialog,Ui_Dialog):
                 PymysqlDb().updateDb(sql1)
             else:
                 #否则插入往book中插入新的数据，同时插入buyordrop表
-                sql2 = "insert into book (BookName,BookId,Auth,Category) values('{}','{}','{}','{}')".format(bookname,bookid,authname,category)
+                sql2 = "insert into book (BookName,BookId,Auth,Category,PublisherTime,Publisher) values('{}','{}','{}','{}','{}','{}')".format(bookname,bookid,authname,category,publishtime,publish)
                 PymysqlDb().insert_db(sql2)
                 #往buyordrop表插入数据
                 timenow = time.strftime('%Y-%m-%d',time.localtime())
