@@ -22,7 +22,33 @@ class DropBook(QDialog,Ui_Dialog):
 
     #删除按钮
     def dropButt(self):
-        pass
+        bookid = self.bookIdEdit.text().strip()
+        dropnum = 0
+        if self.addNumEdit.text() == '':
+            print(QMessageBox.warning(self,'提示','淘汰图书数量为空，请核对'),QMessageBox.Yes,QMessageBox.Yes)
+        dropnum = int(self.addNumEdit.text().strip())
+        sql = "SELECT * FROM book where bookId = '{}'".format(bookid)
+        row = PymysqlDb().query(sql=sql)
+        if (dropnum<0 or dropnum>row[0][5]):
+            print(QMessageBox.warning(self,'提示','您要淘汰{}本图书,实际库存数量{}本,请核实！！'.format(dropnum,row[0][5])),QMessageBox.Yes,
+                  QMessageBox.Yes)
+        if (dropnum == row[0][6]):
+            sql = "delete from book where BookId = '{}'".format(bookid)
+            PymysqlDb().deleteDb(sql)
+            print(QMessageBox.warning(self,'提示','数据删除成功'),QMessageBox.Yes,QMessageBox.Yes)
+        else:
+            sql = "update book set Numstorage = Numstorage - {},NumCanBorrow = NumCanBorrow - {} " \
+                  "where BookId = '{}'".format(dropnum,dropnum,bookid)
+            PymysqlDb().updateDb(sql)
+            print(QMessageBox.warning(self,'提示','数据已更新'),QMessageBox.Yes,QMessageBox.Yes)
+        #文本框中的数据清空
+        self.bookNameEdit.clear()
+        self.bookIdEdit.clear()
+        self.authNameEdit.clear()
+        self.publisherEdit.clear()
+        self.publishTime.clear()
+        self.addNumEdit.clear()
+
 
 
     #输入书号后查询数据
